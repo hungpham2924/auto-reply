@@ -14,7 +14,7 @@ const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 client.on("message", message => {
   if(message.content === "kys") {
-    return message.channel.send("kys")
+    return message.channel.send("")
   }
 })
 
