@@ -25,7 +25,7 @@ client.on("message", message => {
   const random = arr[(Math.floor(Math.random() * (arr.length)))];
   
   client.on("message", message => {
-    if(message.content === "g.l") {
+    if(message.content === "g.i") {
       return message.channel.send(random)
        
     }
