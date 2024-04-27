@@ -14,8 +14,8 @@ const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 client.on("message", message => {
   if(message.content === "kys.") {
-    return message.channel.send("kys", kys-keep-yourself-safe.png)
-    
+    message.channel.send("kys")
+    message.channel.send(kys-keep-yourself-safe.png)
   }
 })
 
