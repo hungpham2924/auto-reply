@@ -1,6 +1,7 @@
 {
   "name": "GiveawayBot",
   "version": "1.0.0",
+  "type": "module",
   "description": "Giveaway bot created with discord-giveaways package in discord.js",
   "main": "index.js",
   "scripts": {
@@ -32,4 +33,5 @@
   "repository": {
     "url": "https://github.com/ZeroDiscord/GiveawayBot"
   }
+  
 }
