@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 const Discord = require("discord.js");
-const clinet = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
+const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 client.on("message", message => {
   if(message.content === "ping") {
