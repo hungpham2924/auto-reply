@@ -13,8 +13,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 client.on("message", message => {
-  if(message.content === "kys") {
-     message.channel.send("nah")
+  if(message.content === "kys.") {
+    return message.channel.send("kys")
   }
 })
 
