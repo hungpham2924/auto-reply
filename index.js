@@ -18,7 +18,7 @@ client.on("message", message => {
   }
   })
 
-  import {arr} from 'meme.js';
+  import {arr} from "#meme";
   console.log(arr);
   const random1 = arr[(Math.floor(Math.random()*(arr.length)))];
   
