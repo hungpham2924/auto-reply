@@ -26,7 +26,8 @@ client.on("message", message => {
   
   client.on("message", message => {
     if(message.content === "g.i") {
-      return message.channel.send(random1)
+       message.channel.send(random1)
+       return
     }
     })
 
