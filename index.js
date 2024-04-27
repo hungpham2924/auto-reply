@@ -16,7 +16,6 @@ client.on("message", message => {
   if(message.content === "kys") {
      message.channel.send("kys")
   }
-  return
 })
 
 client.login(process.env.TOKEN);
