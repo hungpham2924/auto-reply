@@ -29,5 +29,11 @@ client.on("message", message => {
       return message.channel.send(random2)
     }
     })
+    client.on("message", message => {
+      if(message.content === "g.g") {
+        return message.channel.send("Why miHoYo cook my kit like fucking this. \n go fuck urself.")
+      }
+      })
+    
 
 client.login(process.env.TOKEN);
