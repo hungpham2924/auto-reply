@@ -34,6 +34,11 @@ client.on("message", message => {
         return message.channel.send("Why miHoYo cook my kit like fucking this. \n go fuck urself.")
       }
       })
+      client.on("message", message => {
+        if(message.content === "g.h") {
+          return message.channel.send("Allow commands g.i, g.k or g.g \nit's my commands")
+        }
+        })
     
 
 client.login(process.env.TOKEN);
