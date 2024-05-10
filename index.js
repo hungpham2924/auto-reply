@@ -1,7 +1,8 @@
 const arr = [
   "waiting for someone here to get Himeko at my banner and raise her's eidolons to e4",
   "I am the bone of my bat. \n Stellaron is my body , and Trailblaze is my blood.\n I have pulled over a thousand paths. \n Unaware of lost , nor aware of gain. \n Withstood pain to create many paths awaiting Aventurine's arrival. \n I have no regrets. \n This is the only path. \n My whole life. \n Was Unlimited Jade Works.",
-  "https://cdn.discordapp.com/attachments/1207560765490597888/1233811212601659473/FB_IMG_1714191168250.png?ex=662f1c7c&is=662dcafc&hm=97c57195a8775c003b5821948b3a49424f2fc290955edb55313f8eecf46532a3&"
+  "https://cdn.discordapp.com/attachments/1207560765490597888/1233811212601659473/FB_IMG_1714191168250.png?ex=662f1c7c&is=662dcafc&hm=97c57195a8775c003b5821948b3a49424f2fc290955edb55313f8eecf46532a3&",
+  "https://cdn.discordapp.com/attachments/1207560765490597888/1238524133382422661/Khong_Co_Tieu_e32_20240511010941.jpg?ex=663f98fc&is=663e477c&hm=1a95e6115c4a81d308b87c488fa31d3ffa90ce10ee0669532af6a156c9787da3&"
 ]
 const express = require("express");
 const app = express();
