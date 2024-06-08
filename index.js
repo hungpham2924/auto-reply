@@ -9,6 +9,8 @@ const arr = [
 ]
 const express = require("express");
 const app = express();
+let random3 = [];
+let random2;
 
 app.listen(3000, () => {
   console.log("Project is running");
@@ -29,7 +31,13 @@ client.on("message", message => {
  
   client.on("message", message => {
     if(message.content === "g.i") {
-      const random2 = arr[Math.floor(Math.random() * arr.length)];
+      if(random3.length === arr.length){
+        random3 = [];
+      }
+      do{
+        random2 = arr[Math.floor(Math.random() * arr.length)];
+      }while(random3.indexOf(random2) !== -1)
+      random3.push(random2);
       return message.channel.send(random2)
     }
     })
