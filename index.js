@@ -6,7 +6,7 @@ const arr = [
   "https://cdn.discordapp.com/attachments/1207560765490597888/1238669783059140618/Khong_Co_Tieu_e38_20240511012345.jpg?ex=664020a1&is=663ecf21&hm=0eba07e46973d168d4e52c22b56e3d1b61aa4d3bfeb7f0406ffc3319a50b5f9b&",
   "https://cdn.discordapp.com/attachments/1207560765490597888/1244628700943876126/Screenshot_20240524_214340_Discord.jpg?ex=6655ce4e&is=66547cce&hm=ee2e2429803603fa69f3f6ee649bf5a9265f4c83bbdc6284e4cc78b68c361fc5&",
   "gay \n https://cdn.discordapp.com/attachments/1207560765490597888/1245037224597258280/Screenshot_2024-05-28_223259.png?ex=66574ac6&is=6655f946&hm=6915cde39350799b62ecb3a1f1494574196079275f6849caa30a96c26f219f0b&"
-]
+];
 const express = require("express");
 const app = express();
 let random3 = [];
