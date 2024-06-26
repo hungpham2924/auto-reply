@@ -19,15 +19,15 @@
   "dependencies": {
     "beautify": "0.0.8",
     "discord-giveaways": "^4.5.1",
-    "discord.js": "^12.3.1",
+    "discord.js": "^13.3.1",
     "ms": "^2.1.2",
     "os": "^0.1.1",
-    "node": "^14.13.0",
+    "node": "^16.6.0",
     "express": "^4.18.2"
    
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   },
   "repository": {
     "url": "https://github.com/ZeroDiscord/GiveawayBot"
