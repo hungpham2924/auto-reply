@@ -23,13 +23,13 @@ app.get("/", (req, res) => {
 const Discord = require("discord.js");
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
-client.on("message", message => {
+client.on("messageCreate", message => {
   if(message.content === "g.k") {
     return message.channel.send("kys \n https://cdn.discordapp.com/attachments/1207560765490597888/1233706632089702461/kys-keep-yourself-safe.png?ex=662e1256&is=662cc0d6&hm=3928cdb120d18cf9e67d4e2d7afee4de3895aa9b82aed9459f15101838c3abbd&")
   }
   })
  
-  client.on("message", message => {
+  client.on("messageCreate", message => {
     if(message.content === "g.i") {
       if(random3.length === arr.length){
         random3 = [];
@@ -41,12 +41,12 @@ client.on("message", message => {
       return message.channel.send(random2)
     }
     })
-    client.on("message", message => {
+    client.on("messageCreate", message => {
       if(message.content === "g.g") {
         return message.channel.send("Why miHoYo cook my kit like fucking this. \n go fuck urself.")
       }
       })
-      client.on("message", message => {
+      client.on("messageCreate", message => {
         if(message.content === "g.h") {
           return message.channel.send("Allow commands g.i, g.k or g.g \nit's my commands")
         }
